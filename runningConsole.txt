@@ -1,0 +1,21 @@
+show
+create admiral Tarkin
+create commander Ozzel
+create midshipman Peter
+create destroyer T0 Tarkin (24.00, 24.00)
+create bomber B2 Ozzel (40.00, 10.00)
+create shuttle GX Peter (0.00, 0.00)
+create falcon Millennium (42.00, 42.00)
+show
+B2 destination Yavin
+GX start_supply Yavin DS
+T0 course 180
+Millennium course 270 20
+go
+show
+status
+go
+go
+go
+status
+show
