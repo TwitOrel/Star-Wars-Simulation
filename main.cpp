@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    std::cout.precision(2);
-    std::cout << std::fixed;
+    cout.precision(2);
+    cout << std::fixed;
 
     Controller controller;
     controller.run(argc, argv);

@@ -1,7 +1,7 @@
 Name: Orel Twito
 
 for running the project!!
-    1) edit configuration: add the dir and pass sited.dat
+    1) edit configuration: add the dir./Configuration and pass sited.dat
     2) can use runningConsole.txt for copy example (copy paste all)
     3) can use runningViewConsole.dat for copy example (copy paste all)
 
