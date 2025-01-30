@@ -22,6 +22,7 @@ void Controller::run(int argc, char **argv) {
     string line;
     map<string, int> map;
     simulateCommands(map);
+    cout << "Star Wars Simulation\nfor info use man"<< endl;
     while (true) {
         try {
             cout << "Time " << time << ": Enter command :";
@@ -58,6 +59,9 @@ void Controller::run(int argc, char **argv) {
                     break;
                 case 9:     //exit
                     return;
+                case 10:    //man
+                    model.man();
+                    break;
                 default:    // spaceship command
                     ss.seekg(0);
                     model.command(ss);

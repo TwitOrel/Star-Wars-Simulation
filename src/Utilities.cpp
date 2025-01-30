@@ -14,6 +14,7 @@ void simulateCommands(map<string, int> &map) {
     map.insert({"go", 7});
     map.insert({"create", 8});
     map.insert({"exit", 9});
+    map.insert({"man", 10});
 
 }
 

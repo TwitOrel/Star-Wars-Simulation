@@ -66,6 +66,7 @@ public:
 
     //user commands
     void go();
+    void man();
     void status()const;
 
     // when user command ship//

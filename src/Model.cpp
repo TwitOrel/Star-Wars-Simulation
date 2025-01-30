@@ -218,6 +218,25 @@ void Model::status() const {
     }
     cout << endl;
 }
+void Model::man() {
+    cout << "here some use commands for space:" << endl;
+    cout << "go" << endl;
+    cout << "status" << endl;
+    cout << "<Icon> course <Degree>" << endl;
+    cout << "create <Ship (falcon)> <Name> (X, Y)" << endl;
+    cout << "<Name> course <Degree> <Speed> (for falcon)" << endl;
+    cout << "<Icon> <Command(start_supply, destination...)> <SpaceStation>" << endl;
+    cout << "create <Imperial Agent (admiral, commander, midshipman)> <Name>" << endl;
+    cout << "create <Ship (shuttle, bomber, destroyer)> <Icon> <Name> (X, Y)" << endl;
+
+    cout << "\nhere some use commands for view:" << endl;
+    cout << "show" << endl;
+    cout << "default" << endl;
+    cout << "pan <X Y>" << endl;
+    cout << "size <int>" << endl;
+    cout << "zoom <int>" << endl;
+}
+
 
 void Model::go() {
     for (const auto & station : spaceStations){
